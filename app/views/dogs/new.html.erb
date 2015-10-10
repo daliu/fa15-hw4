@@ -1,0 +1,9 @@
+<h1>Submit a new dog!</h1>
+	<%= form_for @dog do |a| %>
+		Name: <%= a.text_field :name %>
+		Age: <%= a.text_field :age %>
+		<input name="commit" type="submit" value="Make a new dog!" />
+	<% end %>
+<br></br>
+
+<h1> Top Quality Dogz! </h1>
